@@ -1,0 +1,47 @@
+#registration{
+	background-color: maroon;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
+
+
+#reg_profile{
+	height: 190px;
+	width: 190px;
+ 	background-color: #FFBD04;
+ 	border-radius: 50%;
+ 	border: 3px solid white;
+ 	padding: 5px;
+}
+
+thead{
+	background-color: maroon;
+	color: white;
+}
+
+th{
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
